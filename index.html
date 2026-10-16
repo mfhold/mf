@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101010">
+  <meta name="description" content="MoniFlach : formations gratuites, parrainages et accompagnement pour développer tes projets.">
+  <title>MoniFlach — Ton argent, maintenant</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="background-glow glow-one"></div>
+  <div class="background-glow glow-two"></div>
+
+  <header class="site-header">
+    <a class="logo" href="#accueil" aria-label="MoniFlach, accueil">
+      <span class="logo-icon">M</span>
+      <span>Moni<span class="yellow">Flach</span></span>
+    </a>
+
+    <nav class="main-nav" aria-label="Navigation principale">
+      <a href="#offres">Les offres</a>
+      <a href="#formations">Formations</a>
+      <a href="#parrainages">Parrainages</a>
+      <a href="#coaching">Accompagnement</a>
+    </nav>
+
+    <a class="header-cta" href="https://t.me/HolderMF" target="_blank" rel="noopener noreferrer">
+      Me contacter <span aria-hidden="true">↗</span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero section" id="accueil">
+      <div class="hero-content reveal">
+        <div class="eyebrow"><span class="status-dot"></span> BIENVENUE CHEZ MONIFLACH</div>
+
+        <h1>TON ARGENT,<br><span class="gradient-text">MAINTENANT.</span></h1>
+
+        <p class="hero-description">
+          Des ressources gratuites, des opportunités à découvrir et un accompagnement
+          pour passer de l'idée à l'action.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#offres">Découvrir les offres <span>↓</span></a>
+          <a class="button button-secondary" href="https://linktr.ee/moniflach" target="_blank" rel="noopener noreferrer">
+            Tous mes liens <span>↗</span>
+          </a>
+        </div>
+
+        <div class="hero-trust">
+          <div class="avatar-stack" aria-hidden="true">
+            <span>M</span><span>F</span><span>+</span>
+          </div>
+          <p><strong>Apprends. Teste. Progresse.</strong><br><span>À ton rythme, avec les ressources disponibles.</span></p>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="hero-card hero-card-main">
+          <div class="hero-card-top">
+            <span class="mini-label">TON PROCHAIN OBJECTIF</span>
+            <span class="sparkle">✳</span>
+          </div>
+          <div class="hero-symbol">€</div>
+          <h2>Construis<br>tes possibilités.</h2>
+          <p>Une étape à la fois.</p>
+          <div class="progress-track"><span></span></div>
+          <div class="progress-caption"><span>Passage à l'action</span><span>GO →</span></div>
+        </div>
+
+        <div class="floating-tag tag-top"><span>✦</span> Formations gratuites</div>
+        <div class="floating-tag tag-bottom"><span>↗</span> Nouvelles opportunités</div>
+        <div class="decorative-star star-one">✳</div>
+        <div class="decorative-star star-two">✦</div>
+      </div>
+
+      <a class="scroll-cue" href="#offres"><span></span> FAIS DÉFILER</a>
+    </section>
+
+    <section class="ticker" aria-label="Nos valeurs">
+      <div class="ticker-track">
+        <span>APPRENDS</span><b>✳</b><span>EXPLORE</span><b>✳</b><span>PASSE À L'ACTION</span><b>✳</b>
+        <span>APPRENDS</span><b>✳</b><span>EXPLORE</span><b>✳</b><span>PASSE À L'ACTION</span><b>✳</b>
+      </div>
+    </section>
+
+    <section class="section offers-section" id="offres">
+      <div class="section-heading reveal">
+        <div>
+          <div class="eyebrow">CHOISIS TON PARCOURS</div>
+          <h2>Trois façons de<br><span class="yellow">commencer.</span></h2>
+        </div>
+        <p>Explore les ressources, découvre les offres de parrainage ou parle-moi de ton projet.</p>
+      </div>
+
+      <div class="offer-grid">
+        <article class="offer-card offer-course reveal" id="formations">
+          <div class="offer-card-top">
+            <span class="offer-icon">▤</span>
+            <span class="offer-number">01 / APPRENDRE</span>
+          </div>
+          <div class="offer-card-content">
+            <span class="pill">100 % GRATUIT</span>
+            <h3>Les formations</h3>
+            <p>Des ressources vidéo pour découvrir l'automatisation TikTok, l'e-commerce et d'autres sujets.</p>
+            <button class="text-link" data-open="courses">Explorer les dossiers <span>↗</span></button>
+          </div>
+          <div class="card-decoration decoration-folder">▱</div>
+        </article>
+
+        <article class="offer-card offer-referral reveal" id="parrainages">
+          <div class="offer-card-top">
+            <span class="offer-icon">↗</span>
+            <span class="offer-number">02 / DÉCOUVRIR</span>
+          </div>
+          <div class="offer-card-content">
+            <span class="pill pill-yellow">RAPIDE</span>
+            <h3>Les parrainages</h3>
+            <p>Découvre trois offres partenaires, leurs conditions et les liens pour en savoir plus.</p>
+            <button class="text-link" data-open="referrals">Voir les offres <span>↗</span></button>
+          </div>
+          <div class="card-decoration decoration-arrow">↗</div>
+        </article>
+
+        <article class="offer-card offer-coaching reveal" id="coaching">
+          <div class="offer-card-top">
+            <span class="offer-icon">✳</span>
+            <span class="offer-number">03 / CONSTRUIRE</span>
+          </div>
+          <div class="offer-card-content">
+            <span class="pill">SUR DISCUSSION</span>
+            <h3>L'accompagnement</h3>
+            <p>Tu as une idée ou un projet ? Discutons-en et voyons comment avancer vers tes premiers résultats.</p>
+            <a class="text-link" href="https://t.me/HolderMF" target="_blank" rel="noopener noreferrer">Parler de mon projet <span>↗</span></a>
+          </div>
+          <div class="card-decoration decoration-spark">✳</div>
+        </article>
+      </div>
+
+      <p class="swipe-hint"><span>←</span> Fais défiler les cartes sur mobile <span>→</span></p>
+    </section>
+
+    <section class="detail-section section" id="details">
+      <div class="detail-panel" id="coursesPanel" hidden>
+        <div class="detail-heading">
+          <div>
+            <div class="eyebrow">LA BIBLIOTHÈQUE</div>
+            <h2>Choisis un <span class="yellow">dossier.</span></h2>
+            <p>Ouvre un dossier pour retrouver trois vidéos de formation.</p>
+          </div>
+          <button class="close-panel" data-close aria-label="Fermer">×</button>
+        </div>
+        <div class="folder-grid" id="folderGrid"></div>
+        <div class="video-area" id="videoArea" hidden>
+          <div class="video-area-heading">
+            <h3 id="videoTitle">Les vidéos</h3>
+            <button class="small-button" id="backToFolders">← Tous les dossiers</button>
+          </div>
+          <div class="video-grid" id="videoGrid"></div>
+          <p class="helper-text">Les liens ouvrent YouTube. Les recherches vidéo sont des exemples à remplacer par tes vidéos précises.</p>
+        </div>
+      </div>
+
+      <div class="detail-panel" id="referralsPanel" hidden>
+        <div class="detail-heading">
+          <div>
+            <div class="eyebrow">LES OFFRES PARTENAIRES</div>
+            <h2>À toi de <span class="yellow">vérifier.</span></h2>
+            <p>Lis les conditions officielles avant de t'inscrire.</p>
+          </div>
+          <button class="close-panel" data-close aria-label="Fermer">×</button>
+        </div>
+
+        <div class="referral-grid">
+          <article class="referral-card">
+            <div class="brand-mark igraal-mark">iG</div>
+            <div class="referral-info">
+              <h3>iGraal</h3>
+              <p class="reward">5 € de bonus potentiel</p>
+              <p>Le bonus et son versement dépendent des conditions de parrainage et des critères d'éligibilité en vigueur.</p>
+              <a class="button button-primary button-full" href="https://fr.igraal.com/parrainage?parrain=AG_682a491378670" target="_blank" rel="noopener noreferrer">Découvrir iGraal ↗</a>
+            </div>
+          </article>
+
+          <article class="referral-card">
+            <div class="brand-mark winamax-mark">W</div>
+            <div class="referral-info">
+              <h3>Winamax</h3>
+              <p class="reward">20 € annoncés</p>
+              <p>Offre liée aux conditions du bookmaker. Réservé aux personnes majeures et selon les règles officielles.</p>
+              <a class="button button-primary button-full" href="https://www.winamax.fr/parrain?code=KXLJY5" target="_blank" rel="noopener noreferrer">Voir l'offre ↗</a>
+            </div>
+          </article>
+
+          <article class="referral-card">
+            <div class="brand-mark betclic-mark">B</div>
+            <div class="referral-info">
+              <h3>Betclic</h3>
+              <p class="reward">10 € annoncés</p>
+              <p>Offre soumise aux conditions de Betclic, à vérifier sur le site officiel avant toute inscription.</p>
+              <a class="button button-primary button-full" href="https://go.onelink.me/2887093520/6c3132b8?af_sub5=KXLEJ867" target="_blank" rel="noopener noreferrer">Voir l'offre ↗</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="responsible-note">
+          <span>ⓘ</span>
+          <p><strong>À savoir :</strong> les montants affichés ne sont pas garantis. Les offres peuvent changer et comporter des conditions. Winamax et Betclic concernent les jeux d'argent : réservés aux majeurs, avec un risque de perte financière. Ne mise jamais de l'argent que tu ne peux pas te permettre de perdre.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="coaching-section section">
+      <div class="coaching-box reveal">
+        <div class="coaching-content">
+          <div class="eyebrow"><span class="status-dot"></span> ON EN PARLE ?</div>
+          <h2>Une idée en tête ?<br><span class="gradient-text">Faisons-la avancer.</span></h2>
+          <p>Contacte-moi pour discuter de ton projet, chercher une idée adaptée à tes objectifs et définir les prochaines étapes vers tes premiers résultats. Aucun résultat financier n'est garanti.</p>
+          <a class="button button-primary" href="https://t.me/HolderMF" target="_blank" rel="noopener noreferrer">Me contacter sur Telegram <span>↗</span></a>
+        </div>
+        <div class="coaching-art" aria-hidden="true">
+          <div class="art-circle circle-a"></div>
+          <div class="art-circle circle-b"></div>
+          <div class="art-center">M<span>F</span></div>
+          <div class="art-star">✳</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta section reveal">
+      <div class="eyebrow">TON PROCHAIN PAS COMMENCE ICI</div>
+      <h2>Moins d'hésitation.<br><span class="yellow">Plus d'action.</span></h2>
+      <p>Prends le temps de découvrir les ressources et choisis ce qui te correspond.</p>
+      <a class="button button-primary" href="https://linktr.ee/moniflach" target="_blank" rel="noopener noreferrer">Retrouver tous les liens ↗</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main">
+      <a class="logo" href="#accueil">
+        <span class="logo-icon">M</span>
+        <span>Moni<span class="yellow">Flach</span></span>
+      </a>
+      <p>Apprendre, explorer et construire son prochain projet.</p>
+      <a class="footer-social" href="https://t.me/HolderMF" target="_blank" rel="noopener noreferrer">Telegram ↗</a>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© <span id="currentYear"></span> MoniFlach</span>
+      <div class="footer-links">
+        <button data-modal="privacyModal">Confidentialité</button>
+        <button data-modal="cookiesModal">Cookies</button>
+        <button data-modal="legalModal">Mentions légales</button>
+      </div>
+      <a href="https://linktr.ee/moniflach" target="_blank" rel="noopener noreferrer">Linktree ↗</a>
+    </div>
+  </footer>
+
+  <div class="modal-backdrop" id="privacyModal" hidden>
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="privacyTitle">
+      <button class="close-panel modal-close" data-modal-close aria-label="Fermer">×</button>
+      <div class="eyebrow">INFORMATIONS</div>
+      <h2 id="privacyTitle">Confidentialité</h2>
+      <p>Cette version du site ne comporte pas de formulaire, de compte utilisateur ni de base de données propre. Si tu contactes MoniFlach via Telegram, les informations transmises sont traitées par Telegram selon ses propres règles.</p>
+      <p>Les liens externes peuvent collecter des données selon leurs politiques de confidentialité. Consulte les conditions des services concernés avant de les utiliser.</p>
+      <p>Responsable du site : complète ici ton identité ou celle de ton entreprise, ainsi qu'une adresse de contact appropriée avant la mise en ligne.</p>
+    </section>
+  </div>
+
+  <div class="modal-backdrop" id="cookiesModal" hidden>
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="cookiesTitle">
+      <button class="close-panel modal-close" data-modal-close aria-label="Fermer">×</button>
+      <div class="eyebrow">NAVIGATION</div>
+      <h2 id="cookiesTitle">Cookies</h2>
+      <p>Ce site ne dépose pas volontairement de cookies publicitaires ou analytiques via son propre code. Des services tiers, par exemple Google Fonts ou les sites ouverts par les liens externes, peuvent appliquer leurs propres règles techniques et de confidentialité.</p>
+      <p>Vérifie les services réellement utilisés et adapte cette notice avant la publication, notamment si tu ajoutes des outils de mesure d'audience ou de publicité.</p>
+    </section>
+  </div>
+
+  <div class="modal-backdrop" id="legalModal" hidden>
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="legalTitle">
+      <button class="close-panel modal-close" data-modal-close aria-label="Fermer">×</button>
+      <div class="eyebrow">INFORMATIONS LÉGALES</div>
+      <h2 id="legalTitle">Mentions légales</h2>
+      <p><strong>Nom du site :</strong> MoniFlach.</p>
+      <p><strong>Éditeur :</strong> à compléter avec ton nom ou la raison sociale de ton entreprise.</p>
+      <p><strong>Contact :</strong> <a href="https://t.me/HolderMF" target="_blank" rel="noopener noreferrer">Telegram MoniFlach</a>.</p>
+      <p><strong>Hébergement :</strong> GitHub Pages (GitHub, Inc.), selon les conditions du service GitHub Pages.</p>
+      <p>Les contenus sont fournis à titre informatif. Les offres tierces sont gérées par leurs opérateurs et peuvent changer. Les résultats financiers ne sont pas garantis.</p>
+      <p><strong>Important :</strong> ces textes sont des modèles à personnaliser, pas un avis juridique. Complète les informations obligatoires applicables à ta situation avant la mise en ligne.</p>
+    </section>
+  </div>
+
+  <button id="backToTop" class="back-to-top" aria-label="Retour en haut">↑</button>
+</body>
+</html>
